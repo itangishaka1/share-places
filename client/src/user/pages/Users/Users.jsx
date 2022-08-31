@@ -1,21 +1,21 @@
 import './Users.scss'
 import UserList from '../../components/UserList/UserList'
-// import Nyungwe from '../../../assets/images/nyungwe.jpg'
+import Nyungwe from '../../../assets/images/nyungwe.jpg'
 
 const Users = () => {
   // const USERS = []
   const USERS = [
     {      
     id: 1,
-    image: '../../../assets/images/nyungwe.jpg',
+    image: 'https://i0.wp.com/www.gorillasafaris-uganda.com/wp-content/uploads/2020/11/CHIMPS-trekking.jpg?fit=750%2C400&ssl=1',
     name: 'Abdullah Ita',
     places: 2
   },
   ]
   return (
-    <div className='users'>
+    <section className='users'>
       <UserList items={USERS} />
-    </div>
+    </section>
   )
 }
 

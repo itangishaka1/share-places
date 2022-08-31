@@ -1,12 +1,16 @@
-import "./UserList.scss"
 import UserItem from "./UserItem"
+import Card from "../../../shared/UIElements/Card/Card"
+import "./UserList.scss"
+
 
 const UserList = ({ items }) => {
   return (
     <div className="users">
       {items.length === 0 && (
         <div className="center">
-          <h2>No users found</h2>
+          <Card>
+             <h2>No users found</h2>
+          </Card>
         </div>
       )}
       <ul className="users__list">

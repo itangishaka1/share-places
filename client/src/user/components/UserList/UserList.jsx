@@ -7,7 +7,7 @@ const UserList = ({ items }) => {
   return (
     <div className="users">
       {items.length === 0 && (
-        <div className="center">
+        <div className="users__list center">
           <Card>
              <h2>No users found</h2>
           </Card>

@@ -26,15 +26,17 @@
         color: inherit;
     }
   }
+
+  &__header-nav {
+    display: none;
+  }
+
+  &__drawer-nav {
+    height: 100%;
+  }
 }
 
-// .main-navigation__header-nav {
-//     display: none;
-//   }
-  
-//   .main-navigation__drawer-nav {
-//     height: 100%;
-//   }
+
   
   @media (min-width: 768px) {
     .main-navigation__menu-btn {

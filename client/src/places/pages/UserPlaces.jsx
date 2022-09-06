@@ -23,8 +23,8 @@ const DUMMY_PLACES = [
         address: "Easter Rwanda",
         creatorId: 'u2',
         location: {
-            lat: 43.6837687,
-            lng: -79.346555
+            lat: 43.6837687, 
+            lng: -79.346555,
         },
     },
 ]

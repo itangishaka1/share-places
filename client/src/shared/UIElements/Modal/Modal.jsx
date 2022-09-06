@@ -30,6 +30,7 @@ const ModalOverlay = props => {
 };
 
 const Modal = props => {
+  const nodeRef = React.useRef(null)
   return (
     <React.Fragment>
       {props.show && <Backdrop onClick={props.onCancel} />}
@@ -39,6 +40,7 @@ const Modal = props => {
         unmountOnExit
         timeout={200}
         classNames="modal"
+        nodeRef={nodeRef}
       >
         <ModalOverlay {...props} />
       </CSSTransition>
